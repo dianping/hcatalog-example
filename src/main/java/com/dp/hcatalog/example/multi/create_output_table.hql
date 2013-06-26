@@ -1,0 +1,5 @@
+CREATE TABLE hostcount1(name STRING, pv BIGINT, citycount INT)
+PARTITIONED BY (dt STRING);
+
+CREATE TABLE hostcount2(name STRING, pv BIGINT, citycount INT)
+PARTITIONED BY (dt STRING);
